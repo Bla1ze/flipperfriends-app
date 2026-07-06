@@ -88,12 +88,6 @@ This is AtGames Legends pinball tournament data. Nested JSON is parsed with a sm
 
 ## 🔧 Building & Installing
 
-From the SDK root (requires Docker — see the [main README](../../README.md#-quick-start)):
-
-```bash
-./run.sh flipperfriends-app
-```
-
 Copy the output to a USB drive and plug it into the cabinet:
 
 ```text
