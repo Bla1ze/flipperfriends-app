@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="assets/metadata/flipperfriends-app.png" width="120" alt="Flipper Friends icon">
 
 # Flipper Friends — Tournament Viewer
 
