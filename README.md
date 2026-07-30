@@ -3,7 +3,7 @@
 
 # Flipper Friends — Tournament Viewer
 
-**View the [Flipper Friends](https://flipperfriends.pages.dev/) pinball tournament leaderboards natively on your AtGames cabinet.**
+**View the Flipper Friends pinball tournament leaderboards natively on your AtGames cabinet.**
 
 [![Platform](https://img.shields.io/badge/target-aarch64%20Linux-1f6feb)](../../README.md#-device-constraints--gotchas)
 [![Graphics](https://img.shields.io/badge/graphics-SDL2-1d7874)](#)
@@ -65,13 +65,6 @@ Tournaments  ──▶  Games  ──▶  Rankings
 
 ## 🌐 Data Source
 
-The app calls the site's own public Cloudflare proxy (no key, no auth):
-
-| Endpoint | Returns |
-|---|---|
-| `GET /api/proxy?action=list` | `{ tournaments: [{ id, name, start, end, status }] }` |
-| `GET /api/proxy?action=detail&id=<id>` | `{ name, status, games: [{ name, rankings: [{ rank, user_name, signature, score, hardware, created_at }] }] }` |
-
 This is AtGames Legends pinball tournament data. Nested JSON is parsed with a small dependency-free scanner (`Json.h`) — no JSON library.
 
 ## 💾 Caching & Offline
@@ -126,7 +119,6 @@ Network fetches run on detached background threads so the UI never blocks; fetch
 
 ## 🙏 Credits
 
-- Tournament data & API: **[Flipper Friends](https://flipperfriends.pages.dev/)**.
 - Underlying tournament data: **AtGames** Legends pinball.
 - Fonts: **Noto Sans** & **Bebas Neue** (SIL Open Font License).
 
