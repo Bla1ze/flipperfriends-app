@@ -3,7 +3,8 @@
 
 # Flipper Friends — Tournament Viewer
 
-<img width="1878" height="976" alt="vlcsnap-2026-07-29-21h57m54s349" src="https://github.com/user-attachments/assets/6d0ac28c-b5e1-4aa7-8471-9c049ebe746c" />
+<img width="1920" height="1080" alt="vlcsnap-2026-07-30-01h22m53s293" src="https://github.com/user-attachments/assets/7f5684ec-b290-4db3-bd88-77e804fe2bc0" />
+
 
 
 **View the Flipper Friends pinball tournament leaderboards natively on your AtGames cabinet.**
