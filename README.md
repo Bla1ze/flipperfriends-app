@@ -124,5 +124,6 @@ Network fetches run on detached background threads so the UI never blocks; fetch
 
 - Underlying tournament data: **AtGames** Legends pinball.
 - Fonts: **Noto Sans** & **Bebas Neue** (SIL Open Font License).
+- Display info: @n-i-x
 
 Part of the [AtGames External Application SDK](../../README.md).
